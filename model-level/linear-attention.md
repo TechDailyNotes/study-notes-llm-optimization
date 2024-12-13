@@ -29,24 +29,25 @@ Linear Attention approximates the similarity function with ${\text{elu}(x) + 1}$
 
 ### Approximation
 
-![approximation](./linear-attention-pics/approximation.png)
+<img src="./linear-attention-pics/approximation.png" alt="approximation" style="width:30%; height:auto;">
 
 ### Feature Map
 
-![feature-map](./linear-attention-pics/feature-map.png)
-![elu](./linear-attention-pics/elu.png)
+<img src="./linear-attention-pics/feature-map.png" alt="feature-map" style="width:18%; height:auto;">
+
+<img src="./linear-attention-pics/elu.png" alt="elu" style="width:30%; height:auto;">
 
 ### Linear Attention Algorithm
 
-![algorithm](./linear-attention-pics/algorithm.png)
+<img src="./linear-attention-pics/algorithm.png" alt="algorithm" style="width:50%; height:auto;">
 
 ### Time Complexity: Traditional Attention
 
-![time-tradition](./linear-attention-pics/time-tradition.png)
+<img src="./linear-attention-pics/time-tradition.png" alt="time-tradition" style="width:50%; height:auto;">
 
 ### Time Complexity: Linear Attention
 
-![time-linear](./linear-attention-pics/time-linear.png)
+<img src="./linear-attention-pics/time-linear.png" alt="time-linear" style="width:50%; height:auto;">
 
 ## Implementation
 
@@ -71,6 +72,9 @@ class LinearAttention(nn.Module):
 ```
 
 ## Accuracy
+
+![epoch-loss](./linear-attention-pics/epoch-loss.png)
+![step-loss](./linear-attention-pics/step-loss.png)
 
 ## Benchmark
 
